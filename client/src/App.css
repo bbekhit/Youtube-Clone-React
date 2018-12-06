@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poor Story", cursive;
+}
+.navbar {
+  background-color: #c9c1ac;
+}
+nav .navbar-nav li .my {
+  color: #d3325f !important;
+}
+nav .navbar-brand {
+  color: #d3325f !important;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+.input-field input {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: 10px;
+  border: 0;
+  border-bottom: 3px solid #c9c1ac;
+}
+
+input::-webkit-input-placeholder {
+  color: #d3325f;
+  font-size: 25px;
+}
+
+input:focus {
+  background: #c9c1ac;
+  color: #d3325f;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+input:active {
+  background: #c9c1ac;
+  color: #d3325f;
+  border: none;
+  outline: none;
+}
+
+.error-tag {
+  font-size: 15px;
+  color: red;
+  font-weight: 400;
+  margin-top: 0;
+}
+.search-bar-wrapper {
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.one-video-wrapper {
+  width: 600px;
+  padding: 15px;
+  margin: 15px;
+}
+.item-card {
+  width: 450px;
+  height: 550px;
+  border: 5px solid #c9c1ac;
+  padding: 15px;
+  margin: 15px;
+}
+p {
+  cursor: pointer;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.text-wrapper {
+  width: 600px;
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid #c9c1ac;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
